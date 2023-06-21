@@ -12,8 +12,10 @@ $(function () {
 
     const MainSlide = new Swiper('.main_slide', {
         loop: true,
+        parallax: true,
+        speed: 1200,
         autoplay: {
-            delay: 2500,
+            delay: 3000,
             disableOnInteraction: false,
         },
         on: {
@@ -27,11 +29,7 @@ $(function () {
         }
     });
 
-    const ItmSlide = new Swiper('.itm_slide', {
-        loop: true,
-        slidesPerView: 2,
-        spaceBetween: 30,
-    })
+
 
 
     $('.MainVisual .arrows .left').on('click', function () {
@@ -46,7 +44,33 @@ $(function () {
         const idx = $(this).index();
         $(this).addClass('on').siblings().removeClass('on')
         MainSlide.slideTo(idx);
-    })
+    });
+
+
+    const ItmSlide = new Swiper('.itm_slide', {
+        loop: true,
+        slidesPerView: 2,
+        spaceBetween: 400,
+        speed: 900,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+    });
+
+    $('.MainItm .arrows .left').on('click', function () {
+        ItmSlide.slidePrev();
+    });
+    $('.MainItm .arrows .right').on('click', function () {
+        ItmSlide.slideNext();
+    });
+
+    // document.querySelector('.MainItm .arrows .left').addEventListener('click', () => {
+    //     ItmSlide.slidePrev();
+    // });
+
+
+
 
 
 
