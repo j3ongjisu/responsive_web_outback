@@ -82,7 +82,10 @@ $(function () {
     });
 
     $('.Gnb>ul>li>a').on('click', function (e) {
-        e.preventDefault();
+        if ($('.Gnb').hasClass('on')) {
+            e.preventDefault();
+        }
+
         $(this).next().stop().slideDown();
         $(this).parent().siblings().find('.snb').stop().slideUp();
     });

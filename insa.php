@@ -1,0 +1,5 @@
+<? include 'head.php'; ?>
+<div id="sub">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione soluta eaque autem alias neque quaerat eius, cumque cupiditate facere molestias enim, exercitationem numquam a eos! Laboriosam, dolorum? Libero esse quo autem dolor natus cum! Error laboriosam fugiat illum dolor aut quaerat architecto est a explicabo inventore corporis, reprehenderit aperiam expedita facilis libero repellendus consequatur pariatur soluta dignissimos voluptate? Ipsum, nihil? Accusamus explicabo obcaecati officia. Iusto rerum, vitae odit eum corrupti minima doloribus harum praesentium eligendi eos delectus fugit a? Laborum repellendus eius dolorem laboriosam omnis neque recusandae nulla aliquid nisi iure id, amet expedita pariatur, ab libero deleniti magni enim!
+</div>
+<? include 'footer.php'; ?>
