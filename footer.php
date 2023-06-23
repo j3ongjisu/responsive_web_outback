@@ -1,6 +1,9 @@
 <footer class="Footer">
-<? include 'nav.php'; ?>
         <h2 class="blind">고객지원</h2>
+        <h3 class="blind">사이트맵</h3>
+        <div class="inner site_map">
+            <? include 'nav.php'; ?>
+        </div>
         <div class="inner">
             <div class="top">
                 <ul class="left">
